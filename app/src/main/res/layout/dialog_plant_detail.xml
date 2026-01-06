@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtDetailPlantName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tomates Cerises"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/txtDetailScientific"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solanum lycopersicum"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:textColor="#666"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/txtDetailCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Légume-fruit"
+            android:textSize="12sp"
+            android:background="#E8F5E9"
+            android:padding="6dp"
+            android:textColor="#2E7D32"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/txtDetailPlanting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌱 Plantation: Mars-Mai"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/txtDetailHarvest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌾 Récolte: Juillet-Octobre"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📝 Conseils de Culture"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/txtDetailCare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instructions..."
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/txtDetailWatering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💧 Arrosage: 2-3 fois/semaine"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/txtDetailSunlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="☀️ Ensoleillement: Plein soleil"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/txtDetailSoil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌱 Sol: Riche et bien drainé"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/txtDetailGrowth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⏱️ Durée de croissance: 70 jours"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/txtDetailCompatibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🤝 Compatible avec: Basilic, Persil"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>

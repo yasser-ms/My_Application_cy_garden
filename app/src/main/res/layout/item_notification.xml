@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardNotification"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <View
+            android:id="@+id/unreadIndicator"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:background="#2196F3"
+            android:layout_marginEnd="12dp" />
+
+        <TextView
+            android:id="@+id/txtNotifIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toEndOf="@id/unreadIndicator"
+            android:text="⚠️"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_marginEnd="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txtNotifIcon"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNotifParcel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parcelle #B4"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#2E7D32" />
+
+            <TextView
+                android:id="@+id/txtNotifMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Alert message"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtNotifDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="01 Jan 2024 14:30"
+                android:textSize="12sp"
+                android:textColor="#666" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
